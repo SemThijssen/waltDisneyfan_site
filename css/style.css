@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Poiret One', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #c1e0f7;
+    color: black;
+    transition:  0.5s;
+}
+
+.topnav a.active {
+    background-color: #0084ff;
+    color: white;
+}
+
+.button3 {
+    background-color: #0084ff;
+}
+header, footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+h1{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.about_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 40vw;
+    height: 30vw;
+    border: 5px solid #c1e0f7;
+    margin-left: 30.2vw;
+    border-radius: 15px;
+
+}
+p{
+    margin-bottom: 150px;
+    text-align: center;
+}
