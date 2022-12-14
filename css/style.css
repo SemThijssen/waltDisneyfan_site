@@ -3,11 +3,16 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
+    background:linear-gradient(to bottom right, rgba(255, 255, 255, 3) , rgba(193, 224, 247, 4));
     font-size: 20px;
     font-family: 'Poiret One', sans-serif;
 }
 .topnav {
+    position: fixed;
     overflow: hidden;
     background-color: white;
     width: 100%;
@@ -75,3 +80,269 @@ p1{
     left: 181px;
     right: -17px;
 }
+
+.doel_tekst h1{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 80px;
+   
+}
+.info_jaren{ position: relative;
+    height: 50px;
+    width: 40vw;
+    height: 30vw;
+    border: 5px solid #c1e0f7;
+    margin-left: 30.2vw;
+    border-radius: 15px;
+    margin-top: 500px;}
+
+    .top{
+        width: 80px;
+        height: 80px;
+        background:white;
+        border: none;
+        font-size: 190%;
+        font-family: 'Poiret One', sans-serif;
+        border-radius: 5px;
+        color: #c1e0f7;
+        position: fixed;
+        bottom: 120px;
+        right: 120px;
+    }
+    .jaren1920-1930{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+
+    }
+    .jaren1920-1930:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1920-1930{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1930-1940{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1930-1940:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1940-1950{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1940-1950:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1950-1960{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+
+    }
+    .jaren1950-1960:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1960-1970{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1960-1970:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1970-1980{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1970-1980:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1980-1990{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1980-1990:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren1990-2000{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren1990-2000:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren2000-2010{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren2000-2010:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    .jaren2010-nu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        background: white;
+        font-family: 'Poiret One', sans-serif;
+        float: left;
+        margin-left: 75px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border: 5px solid #c1e0f7;
+    }
+    .jaren2010-nu:hover{
+        cursor: pointer;
+        background: #c1e0f7;
+        color: white;
+        transition: 0.3s;
+        font-size: 50px;
+    }
+    #overmij{
+        position: relative;
+    height: 50px;
+    width: 40vw;
+    height: 30vw;
+    border: 5px solid #c1e0f7;
+    margin-left: 30.2vw;
+    border-radius: 15px;
+    margin-top: 500px;}
+    
